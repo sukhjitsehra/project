@@ -24,7 +24,7 @@ Project Organization
     │   └── figures        <- Generated graphics and figures to be used in reporting
     │   └── README.md      <- Youtube Video Link
     │   └── final_project_report <- final report .pdf format and supporting files
-    │   └── Presentation   <-  final power point presentation 
+    │   └── presentation   <-  final power point presentation 
     |
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
