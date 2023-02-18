@@ -1,13 +1,13 @@
 Project Instructions
 ==============================
 
-This repo contains the instuructions for a machine learning project.
+This repo contains the instructions for a machine learning project.
 
 Project Organization
 ------------
 
     ├── LICENSE
-    ├── README.md          <- The top-level README for developers using this project.
+    ├── README.md          <- The top-level README for describing highlights for using this ML project.
     ├── data
     │   ├── external       <- Data from third party sources.
     │   ├── interim        <- Intermediate data that has been transformed.
@@ -20,9 +20,12 @@ Project Organization
     │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
+    ├── reports            
     │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
+    │   └── README.md      <- Youtube Video Link
+    │   └── final_project_report <- final report .pdf format and supporting files
+    │   └── Presentation   <-  final power point presentation 
+    |
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
     │
@@ -44,5 +47,3 @@ Project Organization
        └── visualization  <- Scripts to create exploratory and results oriented visualizations
            └── visualize.py           
 
-
---------
