@@ -6,19 +6,9 @@ This repo contains the instructions for a machine learning project.
 Project Organization
 ------------
 
-    ├── LICENSE
     ├── README.md          <- The top-level README for describing highlights for using this ML project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+    ├── notebooks          <- Jupyter notebooks. Naming convention should snake case.
     │
     ├── reports            
     │   └── figures        <- Generated graphics and figures to be used in reporting
@@ -31,6 +21,9 @@ Project Organization
     │
     ├── src                <- Source code for use in this project.
        ├── __init__.py    <- Makes src a Python module
+       ├── data
+       │   ├── processed      <- The final, canonical data sets for modeling.
+       │   └── raw            <- The original, immutable data dump.
        │
        ├── preprocessing data           <- Scripts to download or generate data and pre-process the data
        │   └── make_dataset.py
@@ -45,5 +38,11 @@ Project Organization
        │   └── train_model.py
        │
        └── visualization  <- Scripts to create exploratory and results oriented visualizations
-           └── visualize.py           
+       │   └── visualize.py  
+       │
+       └── main.py  <- main script to run all the models and call appropriate functions
+       |
+       ├── LICENSE  <- LICENSE terms to be included for the use of the source code distribution
+
+
 

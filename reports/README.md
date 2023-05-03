@@ -1,4 +1,6 @@
-To keep YouTube Video Presentation (non-public) follow the steps below:
+If you are not giving in person presentation:
+
+Please submit the recorded video and  to keep YouTube Video Presentation (non-public) follow the steps below:
 - Change video privacy settings
 - Sign in to YouTube Studio.
 - From the left menu, select Content.
