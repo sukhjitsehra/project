@@ -25,11 +25,10 @@ Project Organization
        │   ├── processed      <- The final, canonical data sets for modeling.
        │   └── raw            <- The original, immutable data dump.
        │
-       ├── preprocessing data           <- Scripts to download or generate data and pre-process the data
-       │   └── make_dataset.py
+       ├── preprocessing_data           <- Scripts to download or generate data and pre-process the data
        │   └── pre-processing.py
        │
-       ├── features       <- Scripts to turn raw data into features for modeling
+       ├── feature_engineering       <- Scripts to turn raw data into features for modeling
        │   └── build_features.py
        │
        ├── models         <- Scripts to train models and then use trained models to make
