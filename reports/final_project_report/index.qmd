@@ -1,3 +1,9 @@
-# Preface {.unnumbered}
-
-Write your content.
+<!-- Include all the files in the order of combining into the file report -->
+{{< include preface.qmd >}}
+{{< include abstract.qmd >}}
+{{< include intro.qmd >}}
+{{< include eda.qmd >}}
+{{< include methodology.qmd >}}
+{{< include results.qmd >}}
+{{< include conclusion.qmd >}}
+{{< include references.qmd >}}

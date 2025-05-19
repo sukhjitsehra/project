@@ -1,25 +1,41 @@
 project:
-  type: book
+  type: book              # keep book features & numbering
+  output-dir: _book       # put everything in one place
 
+  render:
+    - index.qmd            
 book:
-  title: "Machine Learning Model for Real-life Predictions"
-  author: "Student Name"
-  date: "2/18/2023"
+  title: "Name of Project"
+  author: "Name of Student(s)"
+  date: May 18, 2025
+  reader-mode: true
+  page-footer:
+    left: |
+      Project Name and Author Name(s) 
+    right: |
+      This book template was built with <a href="https://quarto.org/">Quarto</a>, Courtesy Dr. Sukhjit Singh Sehra.
+  # cover-image: cover.jpg
+  # favicon: cover.jpg
+  site-url: https://sabudh.org/
+  repo-url: https://github.com//
+  repo-branch: main
   chapters:
-    - abstract.qmd
     - index.qmd
-    - intro.qmd
-    - eda.qmd
-    - methodology.qmd
-    - results.qmd
-    - conclusion.qmd
-    - references.qmd
 
 bibliography: references.bib
 
 format:
-  # html:
-  #   theme: cosmo
+  # ── 1. Multi-page HTML book ──────────────────────────────
+  html:
+    theme: united
+    code-line-numbers: true
+    code-link: true
+    self-contained: true
+    toc: true
+    number-sections: true
+    author-meta: "Dr. Sukhjit Singh Sehra"
+
+  # # ── 2. PDF (single file) ─────────────────────────────────
   pdf:
     documentclass: scrreport
     lof: true
@@ -30,6 +46,10 @@ format:
       - heightrounded
     fontfamily: libertinus
     colorlinks: true
-    format: PrettyPDF-pdf
-  # epub:
-  #   cover-image: cover.png
+   
+  # ── 3. EPUB (single file) ────────────────────────────────
+  epub:
+    # cover-image: cover.png     # optional—remove if you don’t have one
+    toc: true
+    embed-resources: true
+
