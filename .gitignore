@@ -1,1 +1,217 @@
-/.luarc.json
+# ──────────────────────────────────────────────────────────────────────────────
+# 1) Generated Files and Folders
+# ─
+/reports/final_project_report/_output/
+/reports/final_project_report/tex_files/
+
+# ──────────────────────────────────────────────────────────────────────────────
+# 1) OS / global ignores (cross-platform)
+# ──────────────────────────────────────────────────────────────────────────────
+
+# macOS
+*.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Icon files
+Icon?
+# Spotlight
+.Spotlight-V100
+.Trashes
+
+# Linux SWAP files
+.*.swp
+.*.swx
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ──────────────────────────────────────────────────────────────────────────────
+# 2) Editor / IDE folders
+# ──────────────────────────────────────────────────────────────────────────────
+
+# VS Code
+.vscode/
+.vscode-test/
+
+# RStudio
+.Rproj.user/
+.Rhistory
+.Rdata
+.Ruserdata
+
+# Quarto
+.quarto/
+.qmd_cache/
+
+# Jupyter / Notebook
+.ipynb_checkpoints/
+.notebook/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# IntelliJ / JetBrains
+.idea/
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Vim
+*.swp
+*.swo
+
+# ──────────────────────────────────────────────────────────────────────────────
+# 3) Build outputs / intermediate files
+# ──────────────────────────────────────────────────────────────────────────────
+
+# Quarto render outputs (HTML, PDF, EPUB, etc.)
+output/
+_output/
+book/
+_book/
+
+# If your “final_project_report” subfolder builds into its own `_output/`
+final_project_report/_output/
+
+# LaTeX build artifacts (PDFs, AUX, logs, etc.)
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.dvi
+*.synctex.gz
+*.fdb_latexmk
+*.synctex(busy)
+*.pdf
+*.bbl
+*.blg
+
+# BibTeX auxiliary
+*.bcf
+
+# EPUB / e-reader builds
+*.epub
+
+# ──────────────────────────────────────────────────────────────────────────────
+# 4) R / RMarkdown / knitr
+# ──────────────────────────────────────────────────────────────────────────────
+
+# knitr cache
+*_cache/
+*/*_cache/
+cache/
+cache/
+
+# R Markdown intermediate files
+*.utf8.md
+*.knit.md
+*.html (if generated temporarily)
+
+# ──────────────────────────────────────────────────────────────────────────────
+# 5) Tex / “tex_files” folders (catch any and all)
+# ──────────────────────────────────────────────────────────────────────────────
+
+# Ignore any folder named “tex_files” recursively
+**/tex_files/
+
+# ──────────────────────────────────────────────────────────────────────────────
+# 6) Log, temporary, environment, backup files
+# ──────────────────────────────────────────────────────────────────────────────
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*~
+*.bak
+*.orig
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node / JS
+node_modules/
+
+# Virtual environments
+venv/
+env/
+*.env
+.env.local
+.env.*.local
+
+# Conda environment
+.conda/
+.venv/
+env/
+
+# Python pipenv
+Pipfile.lock
+
+# pip  
+pip-env-requirements.txt
+
+# Poetry  
+poetry.lock
+
+# Anaconda  
+*.conda-lock
+
+# Ruby  
+*.gem
+vendor/bundle/
+
+# ──────────────────────────────────────────────────────────────────────────────
+# 7) macOS backups or ephemeral
+# ──────────────────────────────────────────────────────────────────────────────
+
+Network Trash Folder/
+Temporary Items/
+
+# ──────────────────────────────────────────────────────────────────────────────
+# 8) Project-specific (adjust as needed)
+# ──────────────────────────────────────────────────────────────────────────────
+
+# luasrc (if you have a local Lua config)
+.luarc.json
+
+# Git keepers (if you intentionally want to keep empty dirs tracked,
+# you can keep a .gitkeep or README.md in that folder—but ignore all other content)
+# If you do keep a blank `.gitkeep` file, then add: 
+# !.gitkeep  
+# under that folder’s section.
+
+# ──────────────────────────────────────────────────────────────────────────────
+# 9) Finally, any “catch-all” you deem necessary:
+# ──────────────────────────────────────────────────────────────────────────────
+
+# Ignore everything in “_build/” except a README.md (if you have one)
+# _build/*
+# !_build/README.md
+
+# If you want to ignore all hidden files except `.gitignore` itself:
+# .*/ 
+# !/.gitignore
+

@@ -1,9 +1,9 @@
 <!-- Include all the files in the order of combining into the file report -->
-{{< include preface.qmd >}}
-{{< include abstract.qmd >}}
-{{< include intro.qmd >}}
-{{< include eda.qmd >}}
-{{< include methodology.qmd >}}
-{{< include results.qmd >}}
-{{< include conclusion.qmd >}}
-{{< include references.qmd >}}
+{{< include chapters/preface.qmd >}}
+{{< include chapters/abstract.qmd >}}
+{{< include chapters/intro.qmd >}}
+{{< include chapters/eda.qmd >}}
+{{< include chapters/methodology.qmd >}}
+{{< include chapters/results.qmd >}}
+{{< include chapters/conclusion.qmd >}}
+{{< include chapters/references.qmd >}}

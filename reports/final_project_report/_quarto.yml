@@ -1,6 +1,6 @@
 project:
   type: book              # keep book features & numbering
-  output-dir: _book       # put everything in one place
+  output-dir: _output       # put everything in one place
 
   render:
     - index.qmd            
