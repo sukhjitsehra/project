@@ -1,6 +1,7 @@
 # Pre-Processing and Exploratory Data Analysis
 Once you have your dataset, you need to preprocess it to make it suitable for machine learning. This includes cleaning the data, handling missing values, encoding categorical variables, and scaling numerical features. This step is crucial as the accuracy of your model will depend on the quality of your data. 
 
+
 ## Dataset Collection
 
 ## Data Pre-processing
