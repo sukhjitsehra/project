@@ -1,7 +1,9 @@
 Project Instructions
 ==============================
 
-This repo contains the instructions for a machine learning project.
+This repo contains the instructions for a machine learning project. 
+
+## Do Not Forget to mention the Python Version being used and complete the requirements.txt file 
 
 Project Organization
 ------------
